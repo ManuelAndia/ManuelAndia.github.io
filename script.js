@@ -176,7 +176,7 @@ $(function () {
 		if (vcard.email) {
 			$('#email').removeClass('is-hidden');
 			$('#email a')
-				.attr('href', $('#email a').attr('href') + '+' + vcard.email)
+				.attr('href', $('#email a').attr('href') + vcard.email) // Modified by ManuelAndia 13/09/2025
 				.text(vcard.email);
 				
 			$('#name').addClass('name-border');

@@ -262,7 +262,7 @@ body.dark .vcard h1 small {
 }
 
 .vcard .email {
-	letter-spacing: -0.03em;
+	letter-spacing: -0.03em; /* Modified by ManuelAndia 13/09/2025 */
 	word-wrap: break-word;
     word-break: break-all;
 }
